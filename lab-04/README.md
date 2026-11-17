@@ -5,21 +5,17 @@
 - **Name:** Gollagari Akash Reddy
 - **Registration Number:** 252U1R6080
 - **Section:** CSE-AIML-2B
-- **Course:** Backend Development Fundamentals (Year II Term II)
-- **Institution:** Aurora
-- **Faculty:** Joel Prashanth D
-- **Module:** Authentication and user management (Content Week 4, Slots 20–25)
 
 ---
 
-## Live Link
+## Live Links & Deployment
 
-- **Vercel Deployment URL:** [https://bdf-lab-lab-04.vercel.app](https://bdf-lab-lab-04.vercel.app)
-- **GitHub Repository:** [https://github.com/gollagariakashreddy-rgb/BDF-Lab/tree/master/lab-04](https://github.com/gollagariakashreddy-rgb/BDF-Lab/tree/master/lab-04)
+- **Vercel Live URL:** [https://bdf-lab-lab-04.vercel.app](https://bdf-lab-lab-04.vercel.app)
+- **GitHub Repository (Lab 4):** [https://github.com/gollagariakashreddy-rgb/BDF-Lab/tree/master/lab-04](https://github.com/gollagariakashreddy-rgb/BDF-Lab/tree/master/lab-04)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgollagariakashreddy-rgb%2FBDF-Lab&root-directory=lab-04)
 
-> *Note:* If running in an environment without continuous deployment enabled, the complete local setup instructions and full Postman screenshots for every endpoint and error case are documented below.
+
 
 ---
 
@@ -192,3 +188,4 @@ HMACSHA256(
    - **Solution:** Applied `bcrypt.hash(password, 10)` before database insertion. Excluded password from JWT payloads and ensured only hashed representations are kept in SQLite.
 3. **Problem:** SQL injection risk when querying user credentials.
    - **Solution:** Implemented parameterized SQL queries (`?` placeholders) for all `SELECT` and `INSERT` statements, completely preventing SQL injection vulnerabilities.
+

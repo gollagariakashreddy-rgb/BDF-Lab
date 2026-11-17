@@ -20,8 +20,6 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
     res.status(200).json({
         message: 'Lab 4: Authentication and User Management API',
-        course: 'Backend Development Fundamentals',
-        faculty: 'Joel Prashanth D',
         student: {
             name: 'Gollagari Akash Reddy',
             registrationNumber: '252U1R6080',
@@ -228,3 +226,4 @@ if (!process.env.VERCEL && !process.env.NOW_REGION && !process.env.AWS_LAMBDA_FU
 }
 
 module.exports = app;
+
