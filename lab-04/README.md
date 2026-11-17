@@ -10,8 +10,9 @@
 
 ## Live Links & Deployment
 
-- **Vercel Live URL:** [https://bdf-lab-lab-04.vercel.app](https://bdf-lab-lab-04.vercel.app)
 - **GitHub Repository (Lab 4):** [https://github.com/gollagariakashreddy-rgb/BDF-Lab/tree/master/lab-04](https://github.com/gollagariakashreddy-rgb/BDF-Lab/tree/master/lab-04)
+- **1-Click Deploy to Vercel:** [Deploy on Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgollagariakashreddy-rgb%2FBDF-Lab&root-directory=lab-04)
+- **Deployment Status:** Pre-configured for Vercel Serverless deployment via `vercel.json` and `api/index.js`. Can be imported in 1 click at Vercel. Local server runs at `http://localhost:3000/`. Complete working results with Postman screenshots for every endpoint are documented below.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgollagariakashreddy-rgb%2FBDF-Lab&root-directory=lab-04)
 
