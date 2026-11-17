@@ -19,12 +19,7 @@ const PORT = process.env.PORT || 3000;
 // Root / Health-check route
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: 'Lab 4: Authentication and User Management API',
-        student: {
-            name: 'Gollagari Akash Reddy',
-            registrationNumber: '252U1R6080',
-            section: 'CSE-AIML-2B'
-        },
+        message: 'Server is running successfully!',
         endpoints: [
             { method: 'POST', path: '/register', description: 'Register a new user with bcrypt-hashed password' },
             { method: 'POST', path: '/login', description: 'Authenticate user and return JWT token' },
