@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: node-express-lab4
+    runtime: node
+    rootDir: lab-04
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
